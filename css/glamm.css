@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bellota', cursive;
+}
+.header{
+    background-color: #000000;
+    border-bottom: 2px solid #cfa417;
+    height: 95px;
+}
+.navbar{
+    height: 95px;
+    overflow: hidden;   
+}
+.navbar ul {
+    list-style: none;
+    margin-left: 163px;
+    margin-top: 42px;
+    /* display: inline-block; */
+
+}
+.navbar ul li{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 4px 8px;
+}
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+
+
+}
+.navbar ul li a:hover{
+    color:#cfa417;
+    padding:2px;
+}
+img{
+    width: 143px;
+    margin-top: -102px;
+}
+.right{
+        position: absolute;
+        right: 34px;
+        top:20px;
+        display: inline-block;
+    }
+    .btnrgt{
+           height: 35px;
+            width: 170px;
+            padding: 2px 3px;
+            background-color: transparent;
+            border: 2px solid #cfa417;
+            color: white;
+            font-size: 15px;
+            margin-top: 20px;
+            font-family: 'Bellota', cursive ;
+    }
+      .btnrgt:hover{
+            background-color:#cfa417;
+        
+        }
+        #slider{
+            /* width: 100%; */
+            height: 90vh;
+            background-image: url(../img/Slider2.jpg);
+            background-size: cover;
+        }    
+        
+        .sub{
+            margin: auto;
+            width: 100%;
+            height: 700px;
+            background-image: url(../img/choose.jpg);
+            background-size:115%;
+
+
+                       
+        }
+       .sub h1{
+            font-size: 50px;
+            padding-top: 50px;
+
+        }
+        .choose{
+            font-size: 18px;
+            width:60%;
+            margin: auto;
+            margin-left: 15px;
+            color: gray;
+            line-height: 40px;
+            
+                 
+            
+        }
+        #four{
+            width: 80%;
+
+            margin-top: 120px;
+            
+        }
+        .f{
+            float: left;
+            width: 20%;
+            height: 300px;
+            margin: auto;
+            text-align: center;
+             
+            }
+            .f img{
+                width: 103px;
+            }
+            .number {
+                font-size:60px;
+                font-weight: bolder;
+            }
+        
+        
+        .services{
+            padding-top: 40px;
+            background-color: #cfa417;
+            width: 100%;
+            height: 900px;
+        }
+        .s1{
+            height: 450px;
+            width: 450px;
+            padding-left: 25px;
+            text-align: center;
+            color: white;
+            line-height: 30px;
+            float: left;
+        }
+        .services h1{
+            padding-top:-17px;
+            padding-left:-18px;
+            margin-left: 50px;
+            font-size: 80px;
+            font-weight: 500;
+            color: white;
+        }
+       #testimonials{
+          background-image: url(../img/testimonials.jpg);
+          height: 612px;
+          background-size: cover;
+             }
+    .test{
+        height: 400px;
+        width: 600px;
+        padding-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .test p{
+        line-height: 2.0;
+        color: gray;
+        font-style: italic;
+        font-size: 20px;
+    }
+   
+
+    .appoinment{
+        background-image: url(../img/footer-bg.jpg);
+        width: 100%;
+        height: 700px;
+    }
+    .a1{
+        padding-top: 100px;
+        height: 400px;
+        width:20%;
+        margin-left: 30px;
+        float: left;
+    }
+    .a1 p{
+        color: gray;
+        text-align: center;
+    }
+    .a1 img{
+        margin-top: 30px;
+        margin-left: 30px;
+        padding-left: 60px;
+
+    }
+    .a2{
+        float: left;
+        padding-top: 133px;
+       margin-left: 77px;
+    }
+    .a2 ul{
+        color:gray;
+    }
+    .a2 ul li{
+        list-style: none;
+    }
+    ul li{
+        padding: 8px;
+    }
+    .a3{
+        padding-top: 133px;
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-left: 100px;
+}
+
+    
+    .form{
+        /* height: 500px; */
+        /* width: 400px; */
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .form input{
+       background-color: transparent;
+       border: none;
+       border-bottom: 2px solid gray;
+       padding: 10px;
+       margin-bottom: 35px;
+       
+    }
+    .btn{
+        background-color: #cfa417 ;
+        color: white;
+        margin-top: 20px;
+        height:40px;
+        width: 100px;
+        border: none;
+        font-size: 20px;
+    }
+       
